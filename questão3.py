@@ -9,10 +9,13 @@ def calcular_media():
     quantidade_notas=int(input("Quantas notas voce quer calcular a media:"))
     total= 0
     for i in range (quantidade_notas):
-        nota = float(input(f"Digite {i+1}ª  nota:"))
+        nota = float(input(f"Digite {i+1}  nota:"))
         total += nota
     media= total / quantidade_notas
     return media
 media = calcular_media()
+print(media)
 if media > 7:
-
+    print("APROVADO!!!!")
+else:
+    print("REPROVADO")

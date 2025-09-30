@@ -7,5 +7,8 @@ def par_ou_impar(numero):
         return "ímpar"
 resultado= par_ou_impar(6)
 print(f"O numero é {resultado}")
+
+
+
   
     
